@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebak Gambar</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link ke file CSS -->
+</head>
+<body>
+    <div class="game-container">
+        <h1>Tebak Gambar</h1> <!-- Judul Game -->
+        <div id="image-container">
+            <img id="game-image" src="" alt="Gambar" /> <!-- Tempat gambar akan muncul -->
+        </div>
+        <input type="text" id="answer-input" placeholder="Masukkan jawaban" /> <!-- Tempat pemain mengetik jawaban -->
+        <button id="submit-btn">Tebak</button> <!-- Tombol untuk submit jawaban -->
+        <p id="feedback"></p> <!-- Feedback jika jawaban benar atau salah -->
+        <p>Skor: <span id="score">0</span></p> <!-- Tampilan skor pemain -->
+    </div>
+
+    <script src="script.js"></script> <!-- Link ke file JavaScript -->
+</body>
+</html>
